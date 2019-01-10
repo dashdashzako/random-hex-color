@@ -1,5 +1,5 @@
-import { getRandomColor } from '../';
+import { randomColor } from '../';
 
 test('Random color is valid', () => {
-  expect(getRandomColor()).toMatch(/^#[A-F0-9]{6}$/);
+  expect(randomColor()).toMatch(/^#[A-F0-9]{6}$/);
 });

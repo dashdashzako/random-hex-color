@@ -12,6 +12,6 @@ function generateColorCode(code = ''): string {
   );
 }
 
-export function getRandomColor(): string {
+export function randomColor(): string {
   return `#${generateColorCode()}`;
 }

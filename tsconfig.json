@@ -2,7 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "commonjs",
     "outDir": "./lib",
     "strict": true,
     "target": "es5"

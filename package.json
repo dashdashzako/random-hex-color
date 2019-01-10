@@ -1,7 +1,7 @@
 {
   "name": "@dashdashzako/random-hex-color",
   "version": "2.0.0",
-  "description": "Utility to generate random hexadecimal color codes",
+  "description": "Small utility to generate random hexadecimal color codes",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {

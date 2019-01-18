@@ -1,4 +1,5 @@
 {
+  "coverageDirectory": "./coverage/",
   "transform": {
     "^.+\\.ts$": "ts-jest"
   },

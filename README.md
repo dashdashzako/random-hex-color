@@ -7,6 +7,12 @@
 
 Small utility to generate random hexadecimal color codes.
 
+## Installation
+
+```shell
+npm i @dashdashzako/random-hex-color
+```
+
 ## Usage
 
 ```ts
@@ -14,3 +20,7 @@ import { randomColor } from 'random-hex-color';
 
 const theColor = randomColor();
 ```
+
+## License
+
+[MIT](LICENSE)

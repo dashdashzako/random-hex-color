@@ -9,3 +9,11 @@ script:
   - npm i -g codecov
 after_success:
   - codecov
+deploy:
+  skip_cleanup: true
+  on:
+    tags: true
+  provider: npm
+  email: d@dashdashzako.net
+  api_key:
+    secure: DCH6Q7ajlkiMgxPPkihV70RejxZzwXj4J6owae5NDlweWqJ+N3a45XHklOYBMwiZd+jqDltojI+fn1uuLc+zldlvd4KxicKARVZvieCz+EsHX4sfYTdHeTMhiaIkBy169tIOw2jhvb7UOvbysksetfZvv3p187AwiuqP8xW+1DNZYQgOV3QsCrDs9mOkIz+V35YX9/9clSjlaIih28aAE2DCGOOf9qm6A+LSNrFMupe/HrYJGO4XQKwD254KNL8IkZvFLrJ4RvTTxbBtpvu2BUbfmrRoUTvJuesykhoNjlh3aDbhbTY1taikyuAzXlvCnSE1DcwCfe+ryJ9av1tj0Gxry/6Ipzzi9kA1wI6yaDIANOHdaR+FuNmLeKFXAT6dua5Pl6k+acAWphAVWUGVQSq1XfpSV8OMrgc3nrXbo3SvsCGuIwONICjEoszWwTcOkV0wXFuL1MWtbY9pA2iRYWfM8IFux7ICeTa6KuNHJrQlDeQKEn4dtrwv5tHomb9qzNjqGiIL8YSL+OY+6iovW6XuPfO+d14fQw4T+V3EKoE92HSmFfx30uQRcpY2+ZqOkIft9pbo9wPm0BuMOklZVh9hPiZXkbMJ6N9FkTVyxcX7BUnC3u09NfMqXbcZm4ZfWFF6avpszuUPElc0enp2/jXDlbLkIqUKKnX1wEbKi9E=

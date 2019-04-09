@@ -8,8 +8,8 @@
     "test": "jest --config jestconfig.json",
     "coverage": "jest --config jestconfig.json --coverage",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint -c .eslintrc.js \"src/**/*.ts\"",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -35,11 +35,14 @@
   ],
   "devDependencies": {
     "@types/jest": "^24.0.11",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.1.0",
     "prettier": "^1.15.3",
     "ts-jest": "^24.0.0",
-    "tslint": "^5.12.0",
-    "tslint-config-prettier": "^1.17.0",
     "typescript": "^3.2.2"
   }
 }

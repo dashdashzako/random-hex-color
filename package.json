@@ -17,8 +17,7 @@
     "postversion": "git push origin master --tags"
   },
   "files": [
-    "lib/**/*",
-    "README.md"
+    "lib/**/*"
   ],
   "repository": {
     "url": "https://github.com/dashdashzako/random-hex-color"
